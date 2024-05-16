@@ -9,6 +9,21 @@ app_license = "mit"
 # Includes in <head>
 # ------------------
 
+fixtures = [
+    {
+        "dt": "Web Template",
+        "filters": {
+            "module": ["=", "Parsimony Wl"]
+        }
+    },
+    {
+        "dt": "Website Theme",
+        "filters": {
+            "module": ["=", "Parsimony Wl"]
+        }
+    }
+]
+
 # include js, css files in header of desk.html
 # app_include_css = "/assets/parsimony_wl/css/parsimony_wl.css"
 # app_include_js = "/assets/parsimony_wl/js/parsimony_wl.js"
@@ -69,6 +84,7 @@ app_license = "mit"
 
 # before_install = "parsimony_wl.install.before_install"
 # after_install = "parsimony_wl.install.after_install"
+after_migrate = "parsimony_wl.migrate.after_migrate" 
 
 # Uninstallation
 # ------------

@@ -1,0 +1,24 @@
+[
+ {
+  "docstatus": 0,
+  "doctype": "Web Template",
+  "fields": [],
+  "modified": "2024-05-15 15:28:27.680606",
+  "module": "Parsimony Wl",
+  "name": "Parsimony Header",
+  "standard": 0,
+  "template": "<nav class=\"navbar navbar-light navbar-expand-lg\">\n<div class=\"container\">\n<a class=\"navbar-brand\" href=\"/\"><img src=\"/files/parsimony_logo.svg\"></a>\n<button aria-controls=\"navbarSupportedContent\" aria-expanded=\"false\" aria-label=\"Toggle navigation\" class=\"navbar-toggler\" data-target=\"#navbarSupportedContent\" data-toggle=\"collapse\" type=\"button\">\n<span>\n<svg class=\"icon icon-lg\">\n<use href=\"#icon-menu\"></use>\n</svg>\n</span>\n</button>\n<div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">\n<ul class=\"mr-auto navbar-nav\">\n<li class=\"nav-item\">\n<a class=\"nav-link\" href=\"/all-products\">\n\t\t Products\n\t</a>\n</li>\n</ul>\n<ul class=\"ml-auto navbar-nav\">\n<!-- post login tools -->\n</ul>\n</div>\n<div class=\"form-group mb-0 hide\" id=\"language-switcher\">\n<select class=\"form-control\"></select>\n</div>\n</div>\n</nav>",
+  "type": "Navbar"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Web Template",
+  "fields": [],
+  "modified": "2024-05-15 15:30:28.156160",
+  "module": "Parsimony Wl",
+  "name": "Parsimony Footer",
+  "standard": 0,
+  "template": "<footer class=\"web-footer\" style=\"display: block;\">\n<div class=\"container\">\n<div class=\"footer-logo-extension\">\n<div class=\"row\">\n<div class=\"text-left col-md-6\"></div>\n<div class=\"text-right col-md-6\">\n</div>\n</div>\n</div>\n<div class=\"footer-links\">\n<div class=\"row\">\n<div class=\"footer-col-left col-sm-6\"></div>\n<div class=\"footer-col-right col-sm-6\"></div>\n</div>\n</div>\n<div class=\"footer-info\">\n<div class=\"row\">\n<div class=\"footer-col-left col-sm-6 col-12\">\n<div class=\"copyright-footer\"><a href=\"https://parsimony.com/legal\" style=\"color:#3fb2bf;\">Legal</a> | <a href=\"https://parsimony.com/privacy\" style=\"color:#3fb2bf;\" target=\"_blank\">Privacy</a>&nbsp;&nbsp;2019-2024 Parsimony, LLC. All rights reserved. \"Parsimony\" is a trademark of Parsimony LLC.</div>\n</div>\n<div class=\"footer-col-right col-sm-6 col-12 footer-powered\">\n<a class=\"text-muted\" href=\"https://parsimony.com\" target=\"_blank\">Powered by Parsimony</a>\n</div>\n</div>\n</div>\n</div>\n</footer>",
+  "type": "Footer"
+ }
+]
